@@ -46,6 +46,11 @@ body {
   cursor: pointer;
 }
 
+.navbar-col2 ul a {
+  text-decoration: none;
+  color: black;
+}
+
 .hero {
   width: 100%;
   height: calc(100vh - 80px);
@@ -314,8 +319,11 @@ body {
 }
 
 .dashboardHeader {
-  background-color: #f3f6fb;
-  margin-top: 40px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: #0f1419;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -470,6 +478,8 @@ body {
 .pvacy h2 {
   margin-bottom: 15px;
   font-size: 24px;
+  font-weight: 500;
+  font-size: 24px;
   line-height: 28px;
 
   color: #0f1419;
@@ -481,4 +491,13 @@ body {
 
   color: #334150;
   margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  .app-padding {
+    padding: 0 20px;
+  }
+  .pvacy {
+    width: 100%;
+  }
 }
